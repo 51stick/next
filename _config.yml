@@ -28,7 +28,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: true
+# seo: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -137,7 +137,7 @@ font:
   #LinkLabel: Link
 social:
   GitHub: https://github.com/your-user-name
-  微博: http://weibo.com/your-user-name
+  微博: http://weibo.com/u/2826016400
 
 
 # Social Links Icons
@@ -152,13 +152,6 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
-
-# Sidebar Avatar
-# in theme directory(source/images): /images/avatar.jpg
-# in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: http://p1.bqimg.com/1949/66949c38ecfce4cf.png
-
 
 # Table Of Contents in the Sidebar
 toc:
@@ -191,12 +184,12 @@ sidebar:
   #display: remove
 
 
-# Blogrolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+# 友情链接
+# links_title: Links
+# links_layout: block
+# links_layout: inline
+# links:
+  # Title: http://example.com/
 
 
 # ---------------------------------------------------------------
@@ -207,16 +200,13 @@ sidebar:
 scroll_to_more: true
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
-
-description: 不抛弃，不放弃
-
+# excerpt_description: true
 
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 150
+  length: 300
 
 # Post meta display settings
 post_meta:
@@ -279,10 +269,13 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: 51stick
+#duoshuo_hotartical: true
+duoshuo_share: true
 
 # Disqus
 #disqus_shortname:
+#disqus_shortname: 51stick
 
 # Hypercomments
 #hypercomments_id:
@@ -340,7 +333,20 @@ duoshuo_info:
   user_id: 0
   #admin_nickname: Author
 
+# 昵称
 author: 小猪突然地
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+# user photo
+avatar: http://p1.bqimg.com/1949/66949c38ecfce4cf.png
+description: 学习，进步的不竭动力
+
+ # 打赏
+# reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+# wechatpay: http://p1.bqimg.com/1949/66949c38ecfce4cf.png
+# alipay: http://p1.bqimg.com/1949/66949c38ecfce4cf.png
 
 
 # Facebook SDK Support.
@@ -405,7 +411,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
