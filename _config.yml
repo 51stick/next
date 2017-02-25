@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /stick_favicon.ico
+favicon: /site_favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -266,7 +266,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 91520db2b44bcf03b668386b8bf1428f
 
 # Duoshuo ShortName
 duoshuo_shortname: 51stick
